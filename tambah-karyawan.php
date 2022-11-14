@@ -46,7 +46,7 @@ if(isset($_POST['submit'])){
                     <span>Dashboard</span></a>
                 </li>
                 <li>
-                    <a href="data-menu.php" class="active"><span class="las la-coffee"></span>
+                    <a href="data-menu.php"><span class="las la-coffee"></span>
                     <span>Data Menu</span></a>
                 </li>
                 <li>
@@ -54,7 +54,7 @@ if(isset($_POST['submit'])){
                     <span>Data Supplier</span></a>
                 </li>
                 <li>
-                    <a href="data-karyawan.php"><span class="las la-users"></span>
+                    <a href="data-karyawan.php" class="active"><span class="las la-users"></span>
                     <span>Data Karyawan</span></a>
                 </li>
                 <li>
@@ -77,7 +77,7 @@ if(isset($_POST['submit'])){
             <div class="user-wrapper">
                 <img src="image/pic-1.png" width="40px" height="40px" alt="">
                 <div>
-                    <h4>John Doe</h4>
+                    <h4>Admin</h4>
                     <small>Admin</small>
                 </div>
             </div>
