@@ -84,7 +84,7 @@ if(isset($_POST['submit'])){
             </div>
 
             <div class="logout-wrapper">
-                <a href="index.php"><span class="las la-power-off"></span></a>
+                <a href="logout.php"><span class="las la-power-off"></span></a>
             </div>
         </header>
 
