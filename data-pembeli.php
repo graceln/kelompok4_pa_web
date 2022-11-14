@@ -43,7 +43,7 @@ if (isset($_POST['cari'])) {
                     <span>Dashboard</span></a>
                 </li>
                 <li>
-                    <a href="data-menu.php" class="active"><span class="las la-coffee"></span>
+                    <a href="data-menu.php"><span class="las la-coffee"></span>
                     <span>Data Menu</span></a>
                 </li>
                 <li>
@@ -55,7 +55,7 @@ if (isset($_POST['cari'])) {
                     <span>Data Karyawan</span></a>
                 </li>
                 <li>
-                    <a href="data-pembeli.php"><span class="las la-users"></span>
+                    <a href="data-pembeli.php" class="active"><span class="las la-users"></span>
                     <span>Data Pembeli</span></a>
                 </li>
             </ul>
@@ -74,7 +74,7 @@ if (isset($_POST['cari'])) {
             <div class="user-wrapper">
                 <img src="image/pic-1.png" width="40px" height="40px" alt="">
                 <div>
-                    <h4>John Doe</h4>
+                    <h4>Admin</h4>
                     <small>Admin</small>
                 </div>
             </div>
@@ -89,7 +89,7 @@ if (isset($_POST['cari'])) {
         <div class="content">
                 <h2>DATA PEMBELI</h2>
                 <hr><br>
-                <button class="btn"><a href="tambah-pembeli.php" class="btn">Tambah</a></button><br><br>
+                <br><br>
                     <form action="" method="POST">
                         <input  class="search"type="text" name="keyword" id="live-search" placeholder="Cari" autocomplete="off">
                         <button type="submit" name="cari" id="keyword" class="button">Cari</button>
@@ -99,8 +99,7 @@ if (isset($_POST['cari'])) {
                         <thead>
                             <th>No</th>
                             <th>Username</th>
-                            <th>Email</th>
-                            <th>Aksi</th>
+                            <th>Email</th>                            
                         </thead>
                         <?php if($cek == "0") { ?>
                         <tr>
@@ -116,11 +115,7 @@ if (isset($_POST['cari'])) {
                                     <td><?php echo $no++; ?></td>
                                     <td><?php echo $d['USERNAME']; ?></td>
                                     <td><?php echo $d['EMAIL']; ?></td>
-                                    <td>
-                                        <button class="edit"><a href="ubah-pembeli.php?ID_USER=<?php echo $d['ID_USER']; ?>" class="edit">Ubah</a></button>
-                                        <button class="hapus"><a href="hapus-pembeli.php?ID_USER=<?php echo $d['ID_USER']; ?>" onclick="return confirm('Anda yakin hapus data ini?')"
-                                        class="hapus">Hapus</a></button>
-                                    </td>
+
                                 </tr>
                                 <?php
                             }
