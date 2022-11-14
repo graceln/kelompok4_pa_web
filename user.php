@@ -1,11 +1,11 @@
 <?php 
-// error_reporting(0);
+error_reporting(0);
 include 'koneksi.php';
-// session_start();
-// if (!isset($_SESSION['signin'])) {
-//     header("Location: signin.php");
-//     exit;
-// }
+session_start();
+if (!isset($_SESSION['signin'])) {
+    header("Location: login_user.php");
+    exit;
+}
 if(isset($_POST['submit'])){
     echo "<script>alert('Pemesanan Berhasil!');window.location='user.php';</script>";  
 }
@@ -69,7 +69,7 @@ if (isset($_POST['cari'])) {
             </div>
 
             <div class="logout-wrapper">
-                <a href="index.php"><span class="las la-power-off"></span></a>
+                <a href="logout.php"><span class="las la-power-off"></span></a>
             </div>
         </header>
 
