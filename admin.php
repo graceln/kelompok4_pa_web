@@ -1,3 +1,13 @@
+<?php 
+error_reporting(0);
+include 'koneksi.php';
+session_start();
+if (!isset($_SESSION['signin'])) {
+    header("Location: login_admin.php");
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
