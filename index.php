@@ -27,8 +27,8 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="admin.php">Admin</a>
-                    <a href="user.php">User</a>
+                    <a href="login_admin.php">Admin</a>
+                    <a href="login_user.php">User</a>
                 </div>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
