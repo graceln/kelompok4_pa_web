@@ -103,7 +103,7 @@ if(isset($_POST['submit'])){
             <div class="user-wrapper">
                 <img src="image/pic-1.png" width="40px" height="40px" alt="">
                 <div>
-                    <h4>John Doe</h4>
+                    <h4>Admin</h4>
                     <small>Admin</small>
                 </div>
             </div>
