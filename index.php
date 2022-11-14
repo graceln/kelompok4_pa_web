@@ -82,7 +82,7 @@
 
     <section class="menu" id="menu">
 
-        <h1 class="heading"> our menu</h1>
+        <h1 class="heading"> our top menu</h1>
 
         <div class="box-container">
 
@@ -94,7 +94,7 @@
 
             <div class="box">
                 <img src="image/menu-1.png" alt="">
-                <h3>Classic Coffee Espresso</h3>
+                <h3>V60</h3>
                 <div class="price">15K</div>
             </div>
 
@@ -106,19 +106,19 @@
 
             <div class="box">
                 <img src="image/menu-1.png" alt="">
-                <h3>Classic Coffee Espresso</h3>
+                <h3>Vietnam Drip</h3>
                 <div class="price">15K</div>
             </div>
 
             <div class="box">
                 <img src="image/menu-1.png" alt="">
-                <h3>Classic Coffee Espresso</h3>
+                <h3>Latte</h3>
                 <div class="price">10K</div>
             </div>
 
             <div class="box">
                 <img src="image/menu-1.png" alt="">
-                <h3>Classic Coffee Espresso</h3>
+                <h3>Cappuchino</h3>
                 <div class="price">10K</div>
             </div>
 
@@ -150,7 +150,7 @@
 
         <div class="box">
             <img src="image/quote-img.png" alt="" class="quote">
-            <p>I really like Vietnamese drip coffee because the name of the coffee is like where I was born and the coffee is also very good.</p>
+            <p>I really like Vietnam drip coffee because the name of the coffee is like where I was born and the coffee is also very good.</p>
             <img src="image/pic-2.png" class="user" alt="">
             <h3>Selena Joidie</h3>
             <div class="stars">
@@ -165,7 +165,7 @@
         <div class="box">
             <img src="image/quote-img.png" alt="" class="quote">
             <p>
-Asiano coffee tastes very tasty and delicious, very good to drink when it's raining besides being cool it can make the mind happy.</p>
+Latte coffee tastes very tasty and delicious, very good to drink when it's raining besides being cool it can make the mind happy.</p>
             <img src="image/pic-3.png" class="user" alt="">
             <h3>Hans Smith</h3>
             <div class="stars">
